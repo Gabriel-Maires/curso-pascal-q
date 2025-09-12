@@ -6,4 +6,5 @@
 program exercicio1;
 begin:
   write('Olá Mundo!');
+  write('Hello World!');
 end.
