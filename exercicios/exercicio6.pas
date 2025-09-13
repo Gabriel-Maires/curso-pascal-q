@@ -6,6 +6,12 @@
 }  
 program exercicio6;
 
-begin:
+const pi = 3.14159;
+var raio: real;
+
+begin;
+    writeln('Seja bem vindo. Digite o valor do raio a ser calculado: ');
+    readln(raio);
+    writeln('O calculo da área é: ', (pi * (raio * raio)):0:2)
 
 end.

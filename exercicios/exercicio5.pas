@@ -6,6 +6,12 @@
 }  
 program exercicio5;
 
-begin:
+var lado: integer;
+
+begin;
+
+    writeln('Seja bem vindo. Digite o valor da area: ');
+    readln(lado);
+    writeln('A area do quadrado é: ', (lado * lado));
 
 end.

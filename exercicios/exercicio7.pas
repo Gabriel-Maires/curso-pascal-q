@@ -6,6 +6,15 @@
 }  
 program exercicio7;
 
-begin:
+    var comprimento: real;
+    var altura: real;
+
+begin;
+    writeln('Seja bem vindo. Por gentileza, digite o comprimento do triangulo: ');
+    readln(comprimento);
+    writeln('Maravilha, agora digite a altura do triangulo: ');
+    readln(altura);
+    writeln('A area do triangulo é: ', (comprimento * altura):0:2)
+
 
 end.
